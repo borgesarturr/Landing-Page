@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            padding: 40px;
+            text-align: center;
+        }
+
+        #container {
+            background: white;
+            padding: 25px;
+            width: 320px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #999;
+        }
+
+        button {
+            width: 95%;
+            padding: 12px;
+            margin-top: 15px;
+            border: none;
+            color: white;
+            background: #007bff;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005fcc;
+        }
+    </style>
+
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div id="container">
+        <h2>Identificação do Usuário</h2>
+
+        <input type="text" id="inputId" placeholder="Digite seu ID: ">
+        
+        <button onclick="entrar()">Entrar</button>
+    </div>
+
+</body>
+</html>
